@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ta8@gmail.com'</initValue>
+      <initValue>'ta9@gmail.com'</initValue>
       <name>UserID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,17 +41,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Test8'</initValue>
+      <initValue>'Test9'</initValue>
       <name>FirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Automation8'</initValue>
+      <initValue>'Automation9'</initValue>
       <name>LastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'ta8@gmail.com'</initValue>
+      <initValue>'ta9@gmail.com'</initValue>
       <name>Email</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
