@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LUMA_Project_Suite" time="251.145" tests="4" failures="0" errors="0">
+   <testsuite name="LUMA_Project_Suite" tests="4" failures="0" errors="0" time="251.145" skipped="0" timestamp="14-01-2025T18:27:23" hostname="Rajesh kasture - LAPTOP-9U10MB95" id="Test Suites/Luma Project/LUMA_Project_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Rajesh kasture\\git\\LUMA_Project\\LUMA_Project\\Reports\\20250114_182718\\Luma Project\\LUMA_Project_Suite\\20250114_182718"/>
+         <property name="logFiles" value="C:\\Users\\Rajesh kasture\\git\\LUMA_Project\\LUMA_Project\\Reports\\20250114_182718\\Luma Project\\LUMA_Project_Suite\\20250114_182718\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Rajesh kasture - LAPTOP-9U10MB95"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.156.174"/>
+         <property name="sessionId" value="951a866203e59f7e153eab5241866544"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Secnario_1" time="49.447" classname="Test Cases/Secnario_1" status="PASSED">
+         <system-out><![CDATA[14-01-2025T18:27:24 - [TEST_CASE][PASSED] - Test Cases/Secnario_1: Test Cases/Secnario_1
+
+14-01-2025T18:27:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-01-2025T18:27:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-01-2025T18:27:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T18:27:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-01-2025T18:27:32 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+14-01-2025T18:27:32 - [MESSAGE][PASSED] - Current window maximized
+
+14-01-2025T18:27:32 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T18:27:48 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T18:27:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-01-2025T18:27:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-01-2025T18:27:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Home Page/a_Create an Account"), 0): Object 'Object Repository/Secnario_1/Page_Home Page/a_Create an Account' is present
+
+14-01-2025T18:27:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:27:51 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Home Page/a_Create an Account' is present
+
+14-01-2025T18:27:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Secnario_1/Page_Home Page/a_Create an Account")): Object: 'Object Repository/Secnario_1/Page_Home Page/a_Create an Account' is clicked on
+
+14-01-2025T18:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Secnario_1/Page_Home Page/a_Create an Account' is clicked on
+
+14-01-2025T18:27:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/input_First Name_firstname"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_First Name_firstname' is present
+
+14-01-2025T18:27:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:27:55 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_First Name_firstname' is present
+
+14-01-2025T18:27:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/input_First Name_firstname"), FirstName): Text 'Test8' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_First Name_firstname'
+
+14-01-2025T18:27:56 - [MESSAGE][PASSED] - Text 'Test8' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_First Name_firstname'
+
+14-01-2025T18:27:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/input_Last Name_lastname"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Last Name_lastname' is present
+
+14-01-2025T18:27:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:27:56 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Last Name_lastname' is present
+
+14-01-2025T18:27:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/input_Last Name_lastname"), LastName): Text 'Automation8' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Last Name_lastname'
+
+14-01-2025T18:27:57 - [MESSAGE][PASSED] - Text 'Automation8' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Last Name_lastname'
+
+14-01-2025T18:27:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/input_Email_email"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Email_email' is present
+
+14-01-2025T18:27:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:27:57 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Email_email' is present
+
+14-01-2025T18:27:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/input_Email_email"), Email): Text 'ta8@gmail.com' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Email_email'
+
+14-01-2025T18:27:58 - [MESSAGE][PASSED] - Text 'ta8@gmail.com' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Email_email'
+
+14-01-2025T18:27:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/input_Password_password"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Password_password' is present
+
+14-01-2025T18:27:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:27:59 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Password_password' is present
+
+14-01-2025T18:27:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Password_password'
+
+14-01-2025T18:28:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Password_password'
+
+14-01-2025T18:28:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation' is present
+
+14-01-2025T18:28:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:28:00 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation' is present
+
+14-01-2025T18:28:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation"), Password): Text ****** has been set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation'
+
+14-01-2025T18:28:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation'
+
+14-01-2025T18:28:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/span_Create an Account"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/span_Create an Account' is present
+
+14-01-2025T18:28:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:28:01 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/span_Create an Account' is present
+
+14-01-2025T18:28:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/span_Create an Account")): Object: 'Object Repository/Secnario_1/Page_Create New Customer Account/span_Create an Account' is clicked on
+
+14-01-2025T18:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Secnario_1/Page_Create New Customer Account/span_Create an Account' is clicked on
+
+14-01-2025T18:28:07 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+14-01-2025T18:28:11 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+14-01-2025T18:28:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7"), 0): Object 'Object Repository/Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7' is present
+
+14-01-2025T18:28:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:28:12 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7' is present
+
+14-01-2025T18:28:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7"), "Thank you for registering with Main Website Store."): Actual text and expected text of test object 'Object Repository/Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7' are matched.
+
+14-01-2025T18:28:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7' are matched.
+
+14-01-2025T18:28:12 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+14-01-2025T18:28:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario_2" time="66.014" classname="Test Cases/Scenario_2" status="PASSED">
+         <system-out><![CDATA[14-01-2025T18:28:13 - [TEST_CASE][PASSED] - Test Cases/Scenario_2: Test Cases/Scenario_2
+
+14-01-2025T18:28:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-01-2025T18:28:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-01-2025T18:28:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T18:28:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-01-2025T18:28:17 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+14-01-2025T18:28:17 - [MESSAGE][PASSED] - Current window maximized
+
+14-01-2025T18:28:17 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T18:28:29 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T18:28:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-01-2025T18:28:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-01-2025T18:28:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_/a_Sign In"), 0): Object 'Object Repository/Scenario_3/Page_/a_Sign In' is present
+
+14-01-2025T18:28:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:28:33 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_/a_Sign In' is present
+
+14-01-2025T18:28:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_3/Page_/a_Sign In")): Object: 'Object Repository/Scenario_3/Page_/a_Sign In' is clicked on
+
+14-01-2025T18:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_/a_Sign In' is clicked on
+
+14-01-2025T18:28:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Customer Login/input_Email_loginusername"), 0): Object 'Object Repository/Scenario_2/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T18:28:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:28:36 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T18:28:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Scenario_2/Page_Customer Login/input_Email_loginusername"), UserID): Text 'ta8@gmail.com' is set on object 'Object Repository/Scenario_2/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T18:28:37 - [MESSAGE][PASSED] - Text 'ta8@gmail.com' is set on object 'Object Repository/Scenario_2/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T18:28:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Customer Login/input_Password_loginpassword"), 0): Object 'Object Repository/Scenario_2/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T18:28:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:28:38 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T18:28:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Scenario_2/Page_Customer Login/input_Password_loginpassword"), Password): Text ****** has been set on object 'Object Repository/Scenario_2/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T18:28:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Scenario_2/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T18:28:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Customer Login/span_Sign In"), 0): Object 'Object Repository/Scenario_2/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T18:28:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:28:39 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T18:28:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Customer Login/span_Sign In")): Object: 'Object Repository/Scenario_2/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T18:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T18:28:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e"), 0): Object 'Object Repository/Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is present
+
+14-01-2025T18:28:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:28:58 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is present
+
+14-01-2025T18:28:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e")): Object: 'Object Repository/Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is clicked on
+
+14-01-2025T18:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is clicked on
+
+14-01-2025T18:29:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Men/a_Jackets"), 0): Object 'Object Repository/Scenario_2/Page_Men/a_Jackets' is present
+
+14-01-2025T18:29:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:02 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Men/a_Jackets' is present
+
+14-01-2025T18:29:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Men/a_Jackets")): Object: 'Object Repository/Scenario_2/Page_Men/a_Jackets' is clicked on
+
+14-01-2025T18:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Men/a_Jackets' is clicked on
+
+14-01-2025T18:29:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo"), 0): Object 'Object Repository/Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo' is present
+
+14-01-2025T18:29:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:05 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo' is present
+
+14-01-2025T18:29:05 - [TEST_STEP][PASSED] - click(findTestObject("Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo")): Object: 'Object Repository/Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo' is clicked on
+
+14-01-2025T18:29:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo' is clicked on
+
+14-01-2025T18:29:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Montana Wind Jacket/div_S"), 0): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_S' is present
+
+14-01-2025T18:29:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:10 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_S' is present
+
+14-01-2025T18:29:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Montana Wind Jacket/div_S")): Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_S' is clicked on
+
+14-01-2025T18:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_S' is clicked on
+
+14-01-2025T18:29:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49"), 0): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49' is present
+
+14-01-2025T18:29:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:12 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49' is present
+
+14-01-2025T18:29:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49")): Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49' is clicked on
+
+14-01-2025T18:29:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49' is clicked on
+
+14-01-2025T18:29:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Montana Wind Jacket/span_Add to Cart"), 0): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/span_Add to Cart' is present
+
+14-01-2025T18:29:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:13 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/span_Add to Cart' is present
+
+14-01-2025T18:29:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Montana Wind Jacket/span_Add to Cart")): Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+14-01-2025T18:29:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+14-01-2025T18:29:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450"), 0): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450' is present
+
+14-01-2025T18:29:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:17 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450' is present
+
+14-01-2025T18:29:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450"), "You added Montana Wind Jacket to your shopping cart."): Actual text and expected text of test object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450' are matched.
+
+14-01-2025T18:29:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450' are matched.
+
+14-01-2025T18:29:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f"), 0): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f' is present
+
+14-01-2025T18:29:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:18 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f' is present
+
+14-01-2025T18:29:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f")): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f' is visible
+
+14-01-2025T18:29:18 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f' is visible
+
+14-01-2025T18:29:18 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+14-01-2025T18:29:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario_3" time="72.397" classname="Test Cases/Scenario_3" status="PASSED">
+         <system-out><![CDATA[14-01-2025T18:29:19 - [TEST_CASE][PASSED] - Test Cases/Scenario_3: Test Cases/Scenario_3
+
+14-01-2025T18:29:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-01-2025T18:29:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-01-2025T18:29:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T18:29:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-01-2025T18:29:24 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+14-01-2025T18:29:24 - [MESSAGE][PASSED] - Current window maximized
+
+14-01-2025T18:29:24 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T18:29:36 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T18:29:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-01-2025T18:29:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-01-2025T18:29:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_/a_Sign In"), 0): Object 'Object Repository/Scenario_3/Page_/a_Sign In' is present
+
+14-01-2025T18:29:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:39 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_/a_Sign In' is present
+
+14-01-2025T18:29:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_3/Page_/a_Sign In")): Object: 'Object Repository/Scenario_3/Page_/a_Sign In' is clicked on
+
+14-01-2025T18:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_/a_Sign In' is clicked on
+
+14-01-2025T18:29:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Customer Login/input_Email_loginusername"), 0): Object 'Object Repository/Scenario_3/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T18:29:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:44 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T18:29:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Scenario_3/Page_Customer Login/input_Email_loginusername"), UserID): Text 'ta8@gmail.com' is set on object 'Object Repository/Scenario_3/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T18:29:45 - [MESSAGE][PASSED] - Text 'ta8@gmail.com' is set on object 'Object Repository/Scenario_3/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T18:29:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Customer Login/input_Password_loginpassword"), 0): Object 'Object Repository/Scenario_3/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T18:29:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:45 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T18:29:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Scenario_3/Page_Customer Login/input_Password_loginpassword"), Password): Text ****** has been set on object 'Object Repository/Scenario_3/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T18:29:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Scenario_3/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T18:29:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Customer Login/span_Sign In"), 0): Object 'Object Repository/Scenario_3/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T18:29:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:47 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T18:29:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_3/Page_Customer Login/span_Sign In")): Object: 'Object Repository/Scenario_3/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T18:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T18:29:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-01-2025T18:29:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-01-2025T18:29:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_My Account/a_My Cart                    1             _241c1f"), 0): Object 'Object Repository/Scenario_3/Page_My Account/a_My Cart                    1             _241c1f' is present
+
+14-01-2025T18:29:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:29:55 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_My Account/a_My Cart                    1             _241c1f' is present
+
+14-01-2025T18:29:55 - [TEST_STEP][PASSED] - click(findTestObject("Scenario_3/Page_My Account/a_My Cart                    1             _241c1f")): Object: 'Object Repository/Scenario_3/Page_My Account/a_My Cart                    1             _241c1f' is clicked on
+
+14-01-2025T18:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_My Account/a_My Cart                    1             _241c1f' is clicked on
+
+14-01-2025T18:29:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_My Account/button_Proceed to Checkout"), 0): Object 'Object Repository/Scenario_3/Page_My Account/button_Proceed to Checkout' is present
+
+14-01-2025T18:29:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:00 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_My Account/button_Proceed to Checkout' is present
+
+14-01-2025T18:30:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_3/Page_My Account/button_Proceed to Checkout")): Object: 'Object Repository/Scenario_3/Page_My Account/button_Proceed to Checkout' is clicked on
+
+14-01-2025T18:30:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_My Account/button_Proceed to Checkout' is clicked on
+
+14-01-2025T18:30:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+14-01-2025T18:30:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+14-01-2025T18:30:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Checkout/input_Street Address Line 1_street0"), 0): Object 'Object Repository/Scenario_3/Page_Checkout/input_Street Address Line 1_street0' is present
+
+14-01-2025T18:30:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:07 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Checkout/input_Street Address Line 1_street0' is present
+
+14-01-2025T18:30:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Scenario_3/Page_Checkout/input_Street Address Line 1_street0"), Street): Keys 'Kashid Road' sent to object: 'Object Repository/Scenario_3/Page_Checkout/input_Street Address Line 1_street0'
+
+14-01-2025T18:30:07 - [MESSAGE][PASSED] - Keys 'Kashid Road' sent to object: 'Object Repository/Scenario_3/Page_Checkout/input_Street Address Line 1_street0'
+
+14-01-2025T18:30:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Checkout/input_City_city"), 0): Object 'Object Repository/Scenario_3/Page_Checkout/input_City_city' is present
+
+14-01-2025T18:30:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:08 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Checkout/input_City_city' is present
+
+14-01-2025T18:30:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Scenario_3/Page_Checkout/input_City_city"), City): Text 'Pune' is set on object 'Object Repository/Scenario_3/Page_Checkout/input_City_city'
+
+14-01-2025T18:30:09 - [MESSAGE][PASSED] - Text 'Pune' is set on object 'Object Repository/Scenario_3/Page_Checkout/input_City_city'
+
+14-01-2025T18:30:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Checkout/select_Please select a region, state or pro_d80c8a"), 0): Object 'Object Repository/Scenario_3/Page_Checkout/select_Please select a region, state or pro_d80c8a' is present
+
+14-01-2025T18:30:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:10 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Checkout/select_Please select a region, state or pro_d80c8a' is present
+
+14-01-2025T18:30:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Scenario_3/Page_Checkout/select_Please select a region, state or pro_d80c8a"), "1", true): All options with value '1' are selected in object 'Object Repository/Scenario_3/Page_Checkout/select_Please select a region, state or pro_d80c8a'  using regular expression
+
+14-01-2025T18:30:14 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Scenario_3/Page_Checkout/select_Please select a region, state or pro_d80c8a'  using regular expression
+
+14-01-2025T18:30:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Checkout/input_ZipPostal Code_postcode"), 0): Object 'Object Repository/Scenario_3/Page_Checkout/input_ZipPostal Code_postcode' is present
+
+14-01-2025T18:30:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:14 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Checkout/input_ZipPostal Code_postcode' is present
+
+14-01-2025T18:30:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Scenario_3/Page_Checkout/input_ZipPostal Code_postcode"), Zipcode): Text '23654' is set on object 'Object Repository/Scenario_3/Page_Checkout/input_ZipPostal Code_postcode'
+
+14-01-2025T18:30:15 - [MESSAGE][PASSED] - Text '23654' is set on object 'Object Repository/Scenario_3/Page_Checkout/input_ZipPostal Code_postcode'
+
+14-01-2025T18:30:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Checkout/input_Phone Number_telephone"), 0): Object 'Object Repository/Scenario_3/Page_Checkout/input_Phone Number_telephone' is present
+
+14-01-2025T18:30:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:16 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Checkout/input_Phone Number_telephone' is present
+
+14-01-2025T18:30:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Scenario_3/Page_Checkout/input_Phone Number_telephone"), PhoneNumber): Text '9852246380' is set on object 'Object Repository/Scenario_3/Page_Checkout/input_Phone Number_telephone'
+
+14-01-2025T18:30:17 - [MESSAGE][PASSED] - Text '9852246380' is set on object 'Object Repository/Scenario_3/Page_Checkout/input_Phone Number_telephone'
+
+14-01-2025T18:30:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Checkout/input_Flat Rate_ko_unique_4"), 0): Object 'Object Repository/Scenario_3/Page_Checkout/input_Flat Rate_ko_unique_4' is present
+
+14-01-2025T18:30:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:18 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Checkout/input_Flat Rate_ko_unique_4' is present
+
+14-01-2025T18:30:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_3/Page_Checkout/input_Flat Rate_ko_unique_4")): Object: 'Object Repository/Scenario_3/Page_Checkout/input_Flat Rate_ko_unique_4' is clicked on
+
+14-01-2025T18:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_Checkout/input_Flat Rate_ko_unique_4' is clicked on
+
+14-01-2025T18:30:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Checkout/span_Next"), 0): Object 'Object Repository/Scenario_3/Page_Checkout/span_Next' is present
+
+14-01-2025T18:30:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:19 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Checkout/span_Next' is present
+
+14-01-2025T18:30:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_3/Page_Checkout/span_Next")): Object: 'Object Repository/Scenario_3/Page_Checkout/span_Next' is clicked on
+
+14-01-2025T18:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_Checkout/span_Next' is clicked on
+
+14-01-2025T18:30:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Checkout/span_Place Order"), 0): Object 'Object Repository/Scenario_3/Page_Checkout/span_Place Order' is present
+
+14-01-2025T18:30:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:23 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Checkout/span_Place Order' is present
+
+14-01-2025T18:30:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_3/Page_Checkout/span_Place Order")): Object: 'Object Repository/Scenario_3/Page_Checkout/span_Place Order' is clicked on
+
+14-01-2025T18:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_Checkout/span_Place Order' is clicked on
+
+14-01-2025T18:30:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Success Page/span_Thank you for your purchase"), 0): Object 'Object Repository/Scenario_3/Page_Success Page/span_Thank you for your purchase' is present
+
+14-01-2025T18:30:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:30 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Success Page/span_Thank you for your purchase' is present
+
+14-01-2025T18:30:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Scenario_3/Page_Success Page/span_Thank you for your purchase"), "Thank you for your purchase!"): Actual text and expected text of test object 'Object Repository/Scenario_3/Page_Success Page/span_Thank you for your purchase' are matched.
+
+14-01-2025T18:30:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Scenario_3/Page_Success Page/span_Thank you for your purchase' are matched.
+
+14-01-2025T18:30:30 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+14-01-2025T18:30:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario_4" time="62.939" classname="Test Cases/Scenario_4" status="PASSED">
+         <system-out><![CDATA[14-01-2025T18:30:31 - [TEST_CASE][PASSED] - Test Cases/Scenario_4: Test Cases/Scenario_4
+
+14-01-2025T18:30:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-01-2025T18:30:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-01-2025T18:30:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T18:30:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-01-2025T18:30:34 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+14-01-2025T18:30:34 - [MESSAGE][PASSED] - Current window maximized
+
+14-01-2025T18:30:34 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T18:30:45 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T18:30:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-01-2025T18:30:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-01-2025T18:30:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Home Page/a_Sign In"), 0): Object 'Object Repository/Scenario_4/Page_Home Page/a_Sign In' is present
+
+14-01-2025T18:30:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:49 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Home Page/a_Sign In' is present
+
+14-01-2025T18:30:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_4/Page_Home Page/a_Sign In")): Object: 'Object Repository/Scenario_4/Page_Home Page/a_Sign In' is clicked on
+
+14-01-2025T18:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_4/Page_Home Page/a_Sign In' is clicked on
+
+14-01-2025T18:30:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Customer Login/input_Email_loginusername"), 0): Object 'Object Repository/Scenario_4/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T18:30:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:53 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T18:30:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Scenario_4/Page_Customer Login/input_Email_loginusername"), UserID): Text 'ta8@gmail.com' is set on object 'Object Repository/Scenario_4/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T18:30:54 - [MESSAGE][PASSED] - Text 'ta8@gmail.com' is set on object 'Object Repository/Scenario_4/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T18:30:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Customer Login/input_Password_loginpassword"), 0): Object 'Object Repository/Scenario_4/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T18:30:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:55 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T18:30:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Scenario_4/Page_Customer Login/input_Password_loginpassword"), Password): Text ****** has been set on object 'Object Repository/Scenario_4/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T18:30:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Scenario_4/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T18:30:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Customer Login/span_Sign In"), 0): Object 'Object Repository/Scenario_4/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T18:30:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:30:55 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T18:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_4/Page_Customer Login/span_Sign In")): Object: 'Object Repository/Scenario_4/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T18:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_4/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T18:31:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Home Page/input_Search_q"), 0): Object 'Object Repository/Scenario_4/Page_Home Page/input_Search_q' is present
+
+14-01-2025T18:31:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:31:27 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Home Page/input_Search_q' is present
+
+14-01-2025T18:31:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Scenario_4/Page_Home Page/input_Search_q"), "Nike"): Text 'Nike' is set on object 'Object Repository/Scenario_4/Page_Home Page/input_Search_q'
+
+14-01-2025T18:31:28 - [MESSAGE][PASSED] - Text 'Nike' is set on object 'Object Repository/Scenario_4/Page_Home Page/input_Search_q'
+
+14-01-2025T18:31:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Home Page/button_Search"), 0): Object 'Object Repository/Scenario_4/Page_Home Page/button_Search' is present
+
+14-01-2025T18:31:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:31:29 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Home Page/button_Search' is present
+
+14-01-2025T18:31:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_4/Page_Home Page/button_Search")): Object: 'Object Repository/Scenario_4/Page_Home Page/button_Search' is clicked on
+
+14-01-2025T18:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_4/Page_Home Page/button_Search' is clicked on
+
+14-01-2025T18:31:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Search results for Nike/span_Search results for Nike"), 0): Object 'Object Repository/Scenario_4/Page_Search results for Nike/span_Search results for Nike' is present
+
+14-01-2025T18:31:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T18:31:33 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Search results for Nike/span_Search results for Nike' is present
+
+14-01-2025T18:31:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Scenario_4/Page_Search results for Nike/span_Search results for Nike"), "Search results for: 'Nike'"): Actual text and expected text of test object 'Object Repository/Scenario_4/Page_Search results for Nike/span_Search results for Nike' are matched.
+
+14-01-2025T18:31:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Scenario_4/Page_Search results for Nike/span_Search results for Nike' are matched.
+
+14-01-2025T18:31:34 - [TEST_STEP][PASSED] - assert true: null
+
+14-01-2025T18:31:34 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+14-01-2025T18:31:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-01-2025T18:27:23 - [TEST_SUITE][PASSED] - LUMA_Project_Suite: Test Cases/Scenario_4]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

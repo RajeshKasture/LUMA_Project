@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e</name>
+   <tag></tag>
+   <elementGuidId>bcc663d2-8e36-4f6e-bec3-539057408f48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ui-id-5 > span.ui-menu-icon.ui-icon.ui-icon-carat-1-e</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ui-id-5']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0d610f61-d6ff-4b4d-bc14-3c9da2549e49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-menu-icon ui-icon ui-icon-carat-1-e</value>
+      <webElementGuid>bae0838b-0959-475f-afe3-9556ba16ff71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-id-5&quot;)/span[@class=&quot;ui-menu-icon ui-icon ui-icon-carat-1-e&quot;]</value>
+      <webElementGuid>0ad14591-6ae6-42ac-b45d-52b9cd0229f9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='ui-id-5']/span</value>
+      <webElementGuid>67ecff62-b42a-4528-901f-6506f768787c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/span</value>
+      <webElementGuid>1b89d136-e004-4e11-a5df-ea7bd92d94c3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

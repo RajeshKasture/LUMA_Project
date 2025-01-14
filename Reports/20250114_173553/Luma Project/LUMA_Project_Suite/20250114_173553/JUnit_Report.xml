@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LUMA_Project_Suite" time="151.886" tests="4" failures="1" errors="0">
+   <testsuite name="LUMA_Project_Suite" tests="4" failures="1" errors="0" time="151.886" skipped="0" timestamp="14-01-2025T17:35:57" hostname="Rajesh kasture - LAPTOP-9U10MB95" id="Test Suites/Luma Project/LUMA_Project_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Rajesh kasture\\git\\LUMA_Project\\LUMA_Project\\Reports\\20250114_173553\\Luma Project\\LUMA_Project_Suite\\20250114_173553"/>
+         <property name="logFiles" value="C:\\Users\\Rajesh kasture\\git\\LUMA_Project\\LUMA_Project\\Reports\\20250114_173553\\Luma Project\\LUMA_Project_Suite\\20250114_173553\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Rajesh kasture\\git\\LUMA_Project\\LUMA_Project\\Reports\\20250114_173553\\Luma Project\\LUMA_Project_Suite\\20250114_173553\\1736856470254.png"/>
+         <property name="hostName" value="Rajesh kasture - LAPTOP-9U10MB95"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.156.174"/>
+         <property name="sessionId" value="a94e83e202d2f50d1697924bdcdbc9d4"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Secnario_1" time="29.291" classname="Test Cases/Secnario_1" status="PASSED">
+         <system-out><![CDATA[14-01-2025T17:35:57 - [TEST_CASE][PASSED] - Test Cases/Secnario_1: Test Cases/Secnario_1
+
+14-01-2025T17:35:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-01-2025T17:35:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-01-2025T17:35:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T17:36:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-01-2025T17:36:00 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+14-01-2025T17:36:00 - [MESSAGE][PASSED] - Current window maximized
+
+14-01-2025T17:36:00 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T17:36:08 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T17:36:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-01-2025T17:36:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-01-2025T17:36:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Home Page/a_Create an Account"), 0): Object 'Object Repository/Secnario_1/Page_Home Page/a_Create an Account' is present
+
+14-01-2025T17:36:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:10 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Home Page/a_Create an Account' is present
+
+14-01-2025T17:36:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Secnario_1/Page_Home Page/a_Create an Account")): Object: 'Object Repository/Secnario_1/Page_Home Page/a_Create an Account' is clicked on
+
+14-01-2025T17:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Secnario_1/Page_Home Page/a_Create an Account' is clicked on
+
+14-01-2025T17:36:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/input_First Name_firstname"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_First Name_firstname' is present
+
+14-01-2025T17:36:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:12 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_First Name_firstname' is present
+
+14-01-2025T17:36:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/input_First Name_firstname"), FirstName): Text 'Test6' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_First Name_firstname'
+
+14-01-2025T17:36:13 - [MESSAGE][PASSED] - Text 'Test6' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_First Name_firstname'
+
+14-01-2025T17:36:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/input_Last Name_lastname"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Last Name_lastname' is present
+
+14-01-2025T17:36:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:13 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Last Name_lastname' is present
+
+14-01-2025T17:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/input_Last Name_lastname"), LastName): Text 'Automation6' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Last Name_lastname'
+
+14-01-2025T17:36:14 - [MESSAGE][PASSED] - Text 'Automation6' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Last Name_lastname'
+
+14-01-2025T17:36:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/input_Email_email"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Email_email' is present
+
+14-01-2025T17:36:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:14 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Email_email' is present
+
+14-01-2025T17:36:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/input_Email_email"), Email): Text 'ta6@gmail.com' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Email_email'
+
+14-01-2025T17:36:15 - [MESSAGE][PASSED] - Text 'ta6@gmail.com' is set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Email_email'
+
+14-01-2025T17:36:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/input_Password_password"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Password_password' is present
+
+14-01-2025T17:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:15 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Password_password' is present
+
+14-01-2025T17:36:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Password_password'
+
+14-01-2025T17:36:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Password_password'
+
+14-01-2025T17:36:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation' is present
+
+14-01-2025T17:36:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:16 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation' is present
+
+14-01-2025T17:36:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation"), Password): Text ****** has been set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation'
+
+14-01-2025T17:36:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation'
+
+14-01-2025T17:36:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_Create New Customer Account/span_Create an Account"), 0): Object 'Object Repository/Secnario_1/Page_Create New Customer Account/span_Create an Account' is present
+
+14-01-2025T17:36:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:17 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_Create New Customer Account/span_Create an Account' is present
+
+14-01-2025T17:36:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Secnario_1/Page_Create New Customer Account/span_Create an Account")): Object: 'Object Repository/Secnario_1/Page_Create New Customer Account/span_Create an Account' is clicked on
+
+14-01-2025T17:36:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Secnario_1/Page_Create New Customer Account/span_Create an Account' is clicked on
+
+14-01-2025T17:36:21 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+14-01-2025T17:36:25 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+14-01-2025T17:36:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7"), 0): Object 'Object Repository/Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7' is present
+
+14-01-2025T17:36:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:25 - [MESSAGE][PASSED] - Object 'Object Repository/Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7' is present
+
+14-01-2025T17:36:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7"), "Thank you for registering with Main Website Store."): Actual text and expected text of test object 'Object Repository/Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7' are matched.
+
+14-01-2025T17:36:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7' are matched.
+
+14-01-2025T17:36:25 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+14-01-2025T17:36:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario_2" time="48.135" classname="Test Cases/Scenario_2" status="PASSED">
+         <system-out><![CDATA[14-01-2025T17:36:27 - [TEST_CASE][PASSED] - Test Cases/Scenario_2: Test Cases/Scenario_2
+
+14-01-2025T17:36:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-01-2025T17:36:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-01-2025T17:36:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T17:36:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-01-2025T17:36:28 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+14-01-2025T17:36:28 - [MESSAGE][PASSED] - Current window maximized
+
+14-01-2025T17:36:28 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T17:36:46 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T17:36:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-01-2025T17:36:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-01-2025T17:36:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_/a_Sign In"), 0): Object 'Object Repository/Scenario_3/Page_/a_Sign In' is present
+
+14-01-2025T17:36:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_/a_Sign In' is present
+
+14-01-2025T17:36:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_3/Page_/a_Sign In")): Object: 'Object Repository/Scenario_3/Page_/a_Sign In' is clicked on
+
+14-01-2025T17:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_/a_Sign In' is clicked on
+
+14-01-2025T17:36:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Customer Login/input_Email_loginusername"), 0): Object 'Object Repository/Scenario_2/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T17:36:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:51 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T17:36:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Scenario_2/Page_Customer Login/input_Email_loginusername"), UserID): Text 'ta6@gmail.com' is set on object 'Object Repository/Scenario_2/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T17:36:51 - [MESSAGE][PASSED] - Text 'ta6@gmail.com' is set on object 'Object Repository/Scenario_2/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T17:36:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Customer Login/input_Password_loginpassword"), 0): Object 'Object Repository/Scenario_2/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T17:36:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T17:36:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Scenario_2/Page_Customer Login/input_Password_loginpassword"), Password): Text ****** has been set on object 'Object Repository/Scenario_2/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T17:36:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Scenario_2/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T17:36:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Customer Login/span_Sign In"), 0): Object 'Object Repository/Scenario_2/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T17:36:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T17:36:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Customer Login/span_Sign In")): Object: 'Object Repository/Scenario_2/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T17:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T17:36:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e"), 0): Object 'Object Repository/Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is present
+
+14-01-2025T17:36:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:36:58 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is present
+
+14-01-2025T17:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e")): Object: 'Object Repository/Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is clicked on
+
+14-01-2025T17:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e' is clicked on
+
+14-01-2025T17:37:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Men/a_Jackets"), 0): Object 'Object Repository/Scenario_2/Page_Men/a_Jackets' is present
+
+14-01-2025T17:37:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:00 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Men/a_Jackets' is present
+
+14-01-2025T17:37:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Men/a_Jackets")): Object: 'Object Repository/Scenario_2/Page_Men/a_Jackets' is clicked on
+
+14-01-2025T17:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Men/a_Jackets' is clicked on
+
+14-01-2025T17:37:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo"), 0): Object 'Object Repository/Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo' is present
+
+14-01-2025T17:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:02 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo' is present
+
+14-01-2025T17:37:02 - [TEST_STEP][PASSED] - click(findTestObject("Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo")): Object: 'Object Repository/Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo' is clicked on
+
+14-01-2025T17:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo' is clicked on
+
+14-01-2025T17:37:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Montana Wind Jacket/div_S"), 0): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_S' is present
+
+14-01-2025T17:37:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:07 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_S' is present
+
+14-01-2025T17:37:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Montana Wind Jacket/div_S")): Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_S' is clicked on
+
+14-01-2025T17:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_S' is clicked on
+
+14-01-2025T17:37:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49"), 0): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49' is present
+
+14-01-2025T17:37:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49' is present
+
+14-01-2025T17:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49")): Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49' is clicked on
+
+14-01-2025T17:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49' is clicked on
+
+14-01-2025T17:37:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Montana Wind Jacket/span_Add to Cart"), 0): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/span_Add to Cart' is present
+
+14-01-2025T17:37:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:09 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/span_Add to Cart' is present
+
+14-01-2025T17:37:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_2/Page_Montana Wind Jacket/span_Add to Cart")): Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+14-01-2025T17:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_2/Page_Montana Wind Jacket/span_Add to Cart' is clicked on
+
+14-01-2025T17:37:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450"), 0): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450' is present
+
+14-01-2025T17:37:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450' is present
+
+14-01-2025T17:37:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450"), "You added Montana Wind Jacket to your shopping cart."): Actual text and expected text of test object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450' are matched.
+
+14-01-2025T17:37:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450' are matched.
+
+14-01-2025T17:37:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f"), 0): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f' is present
+
+14-01-2025T17:37:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f' is present
+
+14-01-2025T17:37:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f")): Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f' is visible
+
+14-01-2025T17:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f' is visible
+
+14-01-2025T17:37:14 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+14-01-2025T17:37:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario_3" time="35.267" classname="Test Cases/Scenario_3" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Scenario_3 FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)&#xa;	at Scenario_3.run(Scenario_3:56)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at TempTestSuite1736856353127.run(TempTestSuite1736856353127.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: java.lang.IllegalArgumentException: Object is null&#xa;	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:77)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[14-01-2025T17:37:15 - [TEST_CASE][FAILED] - Test Cases/Scenario_3: Test Cases/Scenario_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at Scenario_3.run(Scenario_3:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736856353127.run(TempTestSuite1736856353127.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more
+
+
+14-01-2025T17:37:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-01-2025T17:37:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-01-2025T17:37:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T17:37:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-01-2025T17:37:17 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+14-01-2025T17:37:17 - [MESSAGE][PASSED] - Current window maximized
+
+14-01-2025T17:37:17 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T17:37:30 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T17:37:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-01-2025T17:37:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-01-2025T17:37:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_/a_Sign In"), 0): Object 'Object Repository/Scenario_3/Page_/a_Sign In' is present
+
+14-01-2025T17:37:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_/a_Sign In' is present
+
+14-01-2025T17:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_3/Page_/a_Sign In")): Object: 'Object Repository/Scenario_3/Page_/a_Sign In' is clicked on
+
+14-01-2025T17:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_/a_Sign In' is clicked on
+
+14-01-2025T17:37:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Customer Login/input_Email_loginusername"), 0): Object 'Object Repository/Scenario_3/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T17:37:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T17:37:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Scenario_3/Page_Customer Login/input_Email_loginusername"), UserID): Text 'ta6@gmail.com' is set on object 'Object Repository/Scenario_3/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T17:37:35 - [MESSAGE][PASSED] - Text 'ta6@gmail.com' is set on object 'Object Repository/Scenario_3/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T17:37:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Customer Login/input_Password_loginpassword"), 0): Object 'Object Repository/Scenario_3/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T17:37:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T17:37:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Scenario_3/Page_Customer Login/input_Password_loginpassword"), Password): Text ****** has been set on object 'Object Repository/Scenario_3/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T17:37:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Scenario_3/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T17:37:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_Customer Login/span_Sign In"), 0): Object 'Object Repository/Scenario_3/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T17:37:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:36 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T17:37:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_3/Page_Customer Login/span_Sign In")): Object: 'Object Repository/Scenario_3/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T17:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T17:37:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-01-2025T17:37:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-01-2025T17:37:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_My Account/a_My Cart                    1             _241c1f"), 0): Object 'Object Repository/Scenario_3/Page_My Account/a_My Cart                    1             _241c1f' is present
+
+14-01-2025T17:37:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:43 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_My Account/a_My Cart                    1             _241c1f' is present
+
+14-01-2025T17:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Scenario_3/Page_My Account/a_My Cart                    1             _241c1f")): Object: 'Object Repository/Scenario_3/Page_My Account/a_My Cart                    1             _241c1f' is clicked on
+
+14-01-2025T17:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_My Account/a_My Cart                    1             _241c1f' is clicked on
+
+14-01-2025T17:37:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_3/Page_My Account/button_Proceed to Checkout"), 0): Object 'Object Repository/Scenario_3/Page_My Account/button_Proceed to Checkout' is present
+
+14-01-2025T17:37:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:37:46 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_3/Page_My Account/button_Proceed to Checkout' is present
+
+14-01-2025T17:37:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_3/Page_My Account/button_Proceed to Checkout")): Object: 'Object Repository/Scenario_3/Page_My Account/button_Proceed to Checkout' is clicked on
+
+14-01-2025T17:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_3/Page_My Account/button_Proceed to Checkout' is clicked on
+
+14-01-2025T17:37:50 - [TEST_STEP][FAILED] - waitForElementPresent(findTestObject("null"), 0): Unable to wait for object to be present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at Scenario_3.run(Scenario_3:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736856353127.run(TempTestSuite1736856353127.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at Script1736852427219.run(Script1736852427219.groovy:56)
+	... 15 more
+)
+
+14-01-2025T17:37:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/null' does not exist
+
+14-01-2025T17:37:50 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+14-01-2025T17:37:50 - [MESSAGE][FAILED] - Unable to wait for object to be present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at Scenario_3.run(Scenario_3:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736856353127.run(TempTestSuite1736856353127.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at Script1736852427219.run(Script1736852427219.groovy:56)
+	... 15 more
+)
+[[ATTACHMENT|C:\\Users\\Rajesh kasture\\git\\LUMA_Project\\LUMA_Project\\Reports\\20250114_173553\\Luma Project\\LUMA_Project_Suite\\20250114_173553\\1736856470254.png]]]]></system-out>
+         <system-err><![CDATA[14-01-2025T17:37:15 - [TEST_CASE][FAILED] - Test Cases/Scenario_3: Test Cases/Scenario_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at Scenario_3.run(Scenario_3:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736856353127.run(TempTestSuite1736856353127.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Scenario_4" time="38.959" classname="Test Cases/Scenario_4" status="PASSED">
+         <system-out><![CDATA[14-01-2025T17:37:50 - [TEST_CASE][PASSED] - Test Cases/Scenario_4: Test Cases/Scenario_4
+
+14-01-2025T17:37:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+14-01-2025T17:37:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-01-2025T17:37:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-01-2025T17:37:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-01-2025T17:37:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+14-01-2025T17:37:52 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+14-01-2025T17:37:52 - [MESSAGE][PASSED] - Current window maximized
+
+14-01-2025T17:37:52 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T17:38:04 - [MESSAGE][PASSED] - Navigate to 'https://magento.softwaretestingboard.com/' successfully
+
+14-01-2025T17:38:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+14-01-2025T17:38:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+14-01-2025T17:38:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Home Page/a_Sign In"), 0): Object 'Object Repository/Scenario_4/Page_Home Page/a_Sign In' is present
+
+14-01-2025T17:38:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:38:08 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Home Page/a_Sign In' is present
+
+14-01-2025T17:38:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_4/Page_Home Page/a_Sign In")): Object: 'Object Repository/Scenario_4/Page_Home Page/a_Sign In' is clicked on
+
+14-01-2025T17:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_4/Page_Home Page/a_Sign In' is clicked on
+
+14-01-2025T17:38:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Customer Login/input_Email_loginusername"), 0): Object 'Object Repository/Scenario_4/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T17:38:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:38:11 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Customer Login/input_Email_loginusername' is present
+
+14-01-2025T17:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Scenario_4/Page_Customer Login/input_Email_loginusername"), UserID): Text 'ta6@gmail.com' is set on object 'Object Repository/Scenario_4/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T17:38:11 - [MESSAGE][PASSED] - Text 'ta6@gmail.com' is set on object 'Object Repository/Scenario_4/Page_Customer Login/input_Email_loginusername'
+
+14-01-2025T17:38:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Customer Login/input_Password_loginpassword"), 0): Object 'Object Repository/Scenario_4/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T17:38:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:38:12 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Customer Login/input_Password_loginpassword' is present
+
+14-01-2025T17:38:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Scenario_4/Page_Customer Login/input_Password_loginpassword"), Password): Text ****** has been set on object 'Object Repository/Scenario_4/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T17:38:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Scenario_4/Page_Customer Login/input_Password_loginpassword'
+
+14-01-2025T17:38:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Customer Login/span_Sign In"), 0): Object 'Object Repository/Scenario_4/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T17:38:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:38:12 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Customer Login/span_Sign In' is present
+
+14-01-2025T17:38:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_4/Page_Customer Login/span_Sign In")): Object: 'Object Repository/Scenario_4/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T17:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_4/Page_Customer Login/span_Sign In' is clicked on
+
+14-01-2025T17:38:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Home Page/input_Search_q"), 0): Object 'Object Repository/Scenario_4/Page_Home Page/input_Search_q' is present
+
+14-01-2025T17:38:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Home Page/input_Search_q' is present
+
+14-01-2025T17:38:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Scenario_4/Page_Home Page/input_Search_q"), "Nike"): Text 'Nike' is set on object 'Object Repository/Scenario_4/Page_Home Page/input_Search_q'
+
+14-01-2025T17:38:23 - [MESSAGE][PASSED] - Text 'Nike' is set on object 'Object Repository/Scenario_4/Page_Home Page/input_Search_q'
+
+14-01-2025T17:38:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Home Page/button_Search"), 0): Object 'Object Repository/Scenario_4/Page_Home Page/button_Search' is present
+
+14-01-2025T17:38:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:38:23 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Home Page/button_Search' is present
+
+14-01-2025T17:38:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Scenario_4/Page_Home Page/button_Search")): Object: 'Object Repository/Scenario_4/Page_Home Page/button_Search' is clicked on
+
+14-01-2025T17:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Scenario_4/Page_Home Page/button_Search' is clicked on
+
+14-01-2025T17:38:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Scenario_4/Page_Search results for Nike/span_Search results for Nike"), 0): Object 'Object Repository/Scenario_4/Page_Search results for Nike/span_Search results for Nike' is present
+
+14-01-2025T17:38:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+14-01-2025T17:38:28 - [MESSAGE][PASSED] - Object 'Object Repository/Scenario_4/Page_Search results for Nike/span_Search results for Nike' is present
+
+14-01-2025T17:38:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Scenario_4/Page_Search results for Nike/span_Search results for Nike"), "Search results for: 'Nike'"): Actual text and expected text of test object 'Object Repository/Scenario_4/Page_Search results for Nike/span_Search results for Nike' are matched.
+
+14-01-2025T17:38:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Scenario_4/Page_Search results for Nike/span_Search results for Nike' are matched.
+
+14-01-2025T17:38:28 - [TEST_STEP][PASSED] - assert true: null
+
+14-01-2025T17:38:28 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+14-01-2025T17:38:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-01-2025T17:35:57 - [TEST_SUITE][FAILED] - LUMA_Project_Suite: Test Cases/Scenario_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at Scenario_3.run(Scenario_3:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736856353127.run(TempTestSuite1736856353127.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[14-01-2025T17:35:57 - [TEST_SUITE][FAILED] - LUMA_Project_Suite: Test Cases/Scenario_3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.waitForElementPresent(WaitForElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword.execute(WaitForElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementPresent(WebUiBuiltInKeywords.groovy:423)
+	at Scenario_3.run(Scenario_3:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1736856353127.run(TempTestSuite1736856353127.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: java.lang.IllegalArgumentException: Object is null
+	at com.kms.katalon.core.helper.KeywordHelper.checkTestObjectParameter(KeywordHelper.java:33)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.doCall(WaitForElementPresentKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementPresentKeyword$_waitForElementPresent_closure1.call(WaitForElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

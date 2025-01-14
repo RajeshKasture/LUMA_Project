@@ -1,0 +1,99 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LUMA_Project_Suite,Chrome 131.0.0.0,,,14-01-2025 17:35:57,14-01-2025 17:38:29,2m - 31.886s,FAILED
+,,,,,,,
+Test Cases/Secnario_1,Chrome 131.0.0.0,,,14-01-2025 17:35:57,14-01-2025 17:36:27,29.291s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,14-01-2025 17:35:58,14-01-2025 17:36:00,2.767s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 131.0.0.0,,,14-01-2025 17:36:00,14-01-2025 17:36:00,0.114s,PASSED
+navigateToUrl(URL),Chrome 131.0.0.0,,,14-01-2025 17:36:00,14-01-2025 17:36:08,7.216s,PASSED
+delay(2),Chrome 131.0.0.0,,,14-01-2025 17:36:08,14-01-2025 17:36:10,2.037s,PASSED
+"waitForElementPresent(findTestObject(""Secnario_1/Page_Home Page/a_Create an Account""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:10,14-01-2025 17:36:10,0.546s,PASSED
+"click(findTestObject(""Object Repository/Secnario_1/Page_Home Page/a_Create an Account""))",Chrome 131.0.0.0,,,14-01-2025 17:36:10,14-01-2025 17:36:12,1.807s,PASSED
+"waitForElementPresent(findTestObject(""Secnario_1/Page_Create New Customer Account/input_First Name_firstname""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:12,14-01-2025 17:36:12,0.414s,PASSED
+"setText(findTestObject(""Object Repository/Secnario_1/Page_Create New Customer Account/input_First Name_firstname""), FirstName)",Chrome 131.0.0.0,,,14-01-2025 17:36:12,14-01-2025 17:36:13,0.642s,PASSED
+"waitForElementPresent(findTestObject(""Secnario_1/Page_Create New Customer Account/input_Last Name_lastname""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:13,14-01-2025 17:36:13,0.305s,PASSED
+"setText(findTestObject(""Object Repository/Secnario_1/Page_Create New Customer Account/input_Last Name_lastname""), LastName)",Chrome 131.0.0.0,,,14-01-2025 17:36:13,14-01-2025 17:36:14,0.596s,PASSED
+"waitForElementPresent(findTestObject(""Secnario_1/Page_Create New Customer Account/input_Email_email""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:14,14-01-2025 17:36:14,0.301s,PASSED
+"setText(findTestObject(""Object Repository/Secnario_1/Page_Create New Customer Account/input_Email_email""), Email)",Chrome 131.0.0.0,,,14-01-2025 17:36:14,14-01-2025 17:36:15,0.645s,PASSED
+"waitForElementPresent(findTestObject(""Secnario_1/Page_Create New Customer Account/input_Password_password""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:15,14-01-2025 17:36:15,0.472s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Secnario_1/Page_Create New Customer Account/input_Password_password""), Password)",Chrome 131.0.0.0,,,14-01-2025 17:36:15,14-01-2025 17:36:16,0.617s,PASSED
+"waitForElementPresent(findTestObject(""Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:16,14-01-2025 17:36:16,0.250s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Secnario_1/Page_Create New Customer Account/input_Confirm Password_password_confirmation""), Password)",Chrome 131.0.0.0,,,14-01-2025 17:36:16,14-01-2025 17:36:17,0.362s,PASSED
+"waitForElementPresent(findTestObject(""Secnario_1/Page_Create New Customer Account/span_Create an Account""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:17,14-01-2025 17:36:17,0.488s,PASSED
+"click(findTestObject(""Object Repository/Secnario_1/Page_Create New Customer Account/span_Create an Account""))",Chrome 131.0.0.0,,,14-01-2025 17:36:17,14-01-2025 17:36:21,3.363s,PASSED
+delay(4),Chrome 131.0.0.0,,,14-01-2025 17:36:21,14-01-2025 17:36:25,4.009s,PASSED
+"waitForElementPresent(findTestObject(""Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:25,14-01-2025 17:36:25,0.265s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Secnario_1/Page_My Account/div_Thank you for registering with Main Web_e69dd7""), ""Thank you for registering with Main Website Store."")",Chrome 131.0.0.0,,,14-01-2025 17:36:25,14-01-2025 17:36:25,0.312s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 131.0.0.0,,,14-01-2025 17:36:25,14-01-2025 17:36:27,1.392s,PASSED
+,,,,,,,
+Test Cases/Scenario_2,Chrome 131.0.0.0,,,14-01-2025 17:36:27,14-01-2025 17:37:15,48.135s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,14-01-2025 17:36:27,14-01-2025 17:36:28,1.075s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 131.0.0.0,,,14-01-2025 17:36:28,14-01-2025 17:36:28,0.087s,PASSED
+navigateToUrl(URL),Chrome 131.0.0.0,,,14-01-2025 17:36:28,14-01-2025 17:36:46,18.122s,PASSED
+delay(2),Chrome 131.0.0.0,,,14-01-2025 17:36:46,14-01-2025 17:36:48,2.007s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_3/Page_/a_Sign In""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:48,14-01-2025 17:36:48,0.328s,PASSED
+"click(findTestObject(""Object Repository/Scenario_3/Page_/a_Sign In""))",Chrome 131.0.0.0,,,14-01-2025 17:36:48,14-01-2025 17:36:50,2.226s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_2/Page_Customer Login/input_Email_loginusername""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:50,14-01-2025 17:36:51,0.297s,PASSED
+"setText(findTestObject(""Object Repository/Scenario_2/Page_Customer Login/input_Email_loginusername""), UserID)",Chrome 131.0.0.0,,,14-01-2025 17:36:51,14-01-2025 17:36:51,0.669s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_2/Page_Customer Login/input_Password_loginpassword""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:51,14-01-2025 17:36:52,0.290s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Scenario_2/Page_Customer Login/input_Password_loginpassword""), Password)",Chrome 131.0.0.0,,,14-01-2025 17:36:52,14-01-2025 17:36:52,0.377s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_2/Page_Customer Login/span_Sign In""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:52,14-01-2025 17:36:52,0.253s,PASSED
+"click(findTestObject(""Object Repository/Scenario_2/Page_Customer Login/span_Sign In""))",Chrome 131.0.0.0,,,14-01-2025 17:36:52,14-01-2025 17:36:57,4.590s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:36:57,14-01-2025 17:36:58,0.707s,PASSED
+"click(findTestObject(""Object Repository/Scenario_2/Page_Home Page/span_Shorts_ui-menu-icon ui-icon ui-icon-carat-1-e""))",Chrome 131.0.0.0,,,14-01-2025 17:36:58,14-01-2025 17:37:00,1.903s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_2/Page_Men/a_Jackets""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:00,14-01-2025 17:37:00,0.367s,PASSED
+"click(findTestObject(""Object Repository/Scenario_2/Page_Men/a_Jackets""))",Chrome 131.0.0.0,,,14-01-2025 17:37:00,14-01-2025 17:37:02,1.970s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:02,14-01-2025 17:37:02,0.362s,PASSED
+"click(findTestObject(""Scenario_2/Page_Jackets - Tops - Men/img_Add to Compare_product-image-photo""))",Chrome 131.0.0.0,,,14-01-2025 17:37:02,14-01-2025 17:37:06,4.090s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_2/Page_Montana Wind Jacket/div_S""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:06,14-01-2025 17:37:07,0.490s,PASSED
+"click(findTestObject(""Object Repository/Scenario_2/Page_Montana Wind Jacket/div_S""))",Chrome 131.0.0.0,,,14-01-2025 17:37:07,14-01-2025 17:37:07,0.360s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:07,14-01-2025 17:37:08,0.701s,PASSED
+"click(findTestObject(""Object Repository/Scenario_2/Page_Montana Wind Jacket/div_Color_option-label-color-93-item-49""))",Chrome 131.0.0.0,,,14-01-2025 17:37:08,14-01-2025 17:37:08,0.337s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_2/Page_Montana Wind Jacket/span_Add to Cart""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:08,14-01-2025 17:37:09,0.484s,PASSED
+"click(findTestObject(""Object Repository/Scenario_2/Page_Montana Wind Jacket/span_Add to Cart""))",Chrome 131.0.0.0,,,14-01-2025 17:37:09,14-01-2025 17:37:09,0.444s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:09,14-01-2025 17:37:13,3.883s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Scenario_2/Page_Montana Wind Jacket/div_You added Montana Wind Jacket to your s_af8450""), ""You added Montana Wind Jacket to your shopping cart."")",Chrome 131.0.0.0,,,14-01-2025 17:37:13,14-01-2025 17:37:13,0.249s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:13,14-01-2025 17:37:14,0.257s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Scenario_2/Page_Montana Wind Jacket/a_My Cart                    1             _241c1f""))",Chrome 131.0.0.0,,,14-01-2025 17:37:14,14-01-2025 17:37:14,0.292s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 131.0.0.0,,,14-01-2025 17:37:14,14-01-2025 17:37:15,0.771s,PASSED
+,,,,,,,
+Test Cases/Scenario_3,Chrome 131.0.0.0,,,14-01-2025 17:37:15,14-01-2025 17:37:50,35.267s,FAILED
+"openBrowser("""")",Chrome 131.0.0.0,,,14-01-2025 17:37:15,14-01-2025 17:37:17,2.199s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 131.0.0.0,,,14-01-2025 17:37:17,14-01-2025 17:37:17,0.082s,PASSED
+navigateToUrl(URL),Chrome 131.0.0.0,,,14-01-2025 17:37:17,14-01-2025 17:37:30,12.984s,PASSED
+delay(2),Chrome 131.0.0.0,,,14-01-2025 17:37:30,14-01-2025 17:37:32,2.003s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_3/Page_/a_Sign In""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:32,14-01-2025 17:37:32,0.250s,PASSED
+"click(findTestObject(""Object Repository/Scenario_3/Page_/a_Sign In""))",Chrome 131.0.0.0,,,14-01-2025 17:37:32,14-01-2025 17:37:34,1.821s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_3/Page_Customer Login/input_Email_loginusername""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:34,14-01-2025 17:37:35,0.281s,PASSED
+"setText(findTestObject(""Object Repository/Scenario_3/Page_Customer Login/input_Email_loginusername""), UserID)",Chrome 131.0.0.0,,,14-01-2025 17:37:35,14-01-2025 17:37:35,0.609s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_3/Page_Customer Login/input_Password_loginpassword""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:35,14-01-2025 17:37:35,0.282s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Scenario_3/Page_Customer Login/input_Password_loginpassword""), Password)",Chrome 131.0.0.0,,,14-01-2025 17:37:35,14-01-2025 17:37:36,0.334s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_3/Page_Customer Login/span_Sign In""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:36,14-01-2025 17:37:36,0.263s,PASSED
+"click(findTestObject(""Object Repository/Scenario_3/Page_Customer Login/span_Sign In""))",Chrome 131.0.0.0,,,14-01-2025 17:37:36,14-01-2025 17:37:40,3.811s,PASSED
+delay(2),Chrome 131.0.0.0,,,14-01-2025 17:37:40,14-01-2025 17:37:42,2.003s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_3/Page_My Account/a_My Cart                    1             _241c1f""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:42,14-01-2025 17:37:43,0.702s,PASSED
+"click(findTestObject(""Scenario_3/Page_My Account/a_My Cart                    1             _241c1f""))",Chrome 131.0.0.0,,,14-01-2025 17:37:43,14-01-2025 17:37:46,3.310s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_3/Page_My Account/button_Proceed to Checkout""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:46,14-01-2025 17:37:46,0.266s,PASSED
+"click(findTestObject(""Object Repository/Scenario_3/Page_My Account/button_Proceed to Checkout""))",Chrome 131.0.0.0,,,14-01-2025 17:37:46,14-01-2025 17:37:50,3.599s,PASSED
+"waitForElementPresent(findTestObject(""null""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:37:50,14-01-2025 17:37:50,0.212s,FAILED
+,,,,,,,
+Test Cases/Scenario_4,Chrome 131.0.0.0,,,14-01-2025 17:37:50,14-01-2025 17:38:29,38.959s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,14-01-2025 17:37:50,14-01-2025 17:37:52,2.178s,PASSED
+maximizeWindow(STOP_ON_FAILURE),Chrome 131.0.0.0,,,14-01-2025 17:37:52,14-01-2025 17:37:52,0.068s,PASSED
+navigateToUrl(URL),Chrome 131.0.0.0,,,14-01-2025 17:37:52,14-01-2025 17:38:04,11.414s,PASSED
+delay(2),Chrome 131.0.0.0,,,14-01-2025 17:38:04,14-01-2025 17:38:06,2.002s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_4/Page_Home Page/a_Sign In""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:38:06,14-01-2025 17:38:08,1.819s,PASSED
+"click(findTestObject(""Object Repository/Scenario_4/Page_Home Page/a_Sign In""))",Chrome 131.0.0.0,,,14-01-2025 17:38:08,14-01-2025 17:38:10,2.891s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_4/Page_Customer Login/input_Email_loginusername""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:38:10,14-01-2025 17:38:11,0.283s,PASSED
+"setText(findTestObject(""Object Repository/Scenario_4/Page_Customer Login/input_Email_loginusername""), UserID)",Chrome 131.0.0.0,,,14-01-2025 17:38:11,14-01-2025 17:38:11,0.639s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_4/Page_Customer Login/input_Password_loginpassword""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:38:11,14-01-2025 17:38:12,0.262s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Scenario_4/Page_Customer Login/input_Password_loginpassword""), Password)",Chrome 131.0.0.0,,,14-01-2025 17:38:12,14-01-2025 17:38:12,0.319s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_4/Page_Customer Login/span_Sign In""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:38:12,14-01-2025 17:38:12,0.290s,PASSED
+"click(findTestObject(""Object Repository/Scenario_4/Page_Customer Login/span_Sign In""))",Chrome 131.0.0.0,,,14-01-2025 17:38:12,14-01-2025 17:38:18,5.917s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_4/Page_Home Page/input_Search_q""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:38:18,14-01-2025 17:38:19,0.678s,PASSED
+"setText(findTestObject(""Object Repository/Scenario_4/Page_Home Page/input_Search_q""), ""Nike"")",Chrome 131.0.0.0,,,14-01-2025 17:38:19,14-01-2025 17:38:23,3.829s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_4/Page_Home Page/button_Search""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:38:23,14-01-2025 17:38:23,0.455s,PASSED
+"click(findTestObject(""Object Repository/Scenario_4/Page_Home Page/button_Search""))",Chrome 131.0.0.0,,,14-01-2025 17:38:23,14-01-2025 17:38:28,4.758s,PASSED
+"waitForElementPresent(findTestObject(""Scenario_4/Page_Search results for Nike/span_Search results for Nike""), 0)",Chrome 131.0.0.0,,,14-01-2025 17:38:28,14-01-2025 17:38:28,0.270s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Scenario_4/Page_Search results for Nike/span_Search results for Nike""), ""Search results for: 'Nike'"")",Chrome 131.0.0.0,,,14-01-2025 17:38:28,14-01-2025 17:38:28,0.288s,PASSED
+assert true,Chrome 131.0.0.0,,,14-01-2025 17:38:28,14-01-2025 17:38:28,0.001s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 131.0.0.0,,,14-01-2025 17:38:28,14-01-2025 17:38:29,0.447s,PASSED
